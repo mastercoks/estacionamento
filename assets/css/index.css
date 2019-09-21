@@ -1,0 +1,95 @@
+header {
+    text-align: center;
+    margin: 10
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    display: grid;
+    align-content: center;
+}
+
+aside ul {
+    padding: 0;
+}
+
+.buttom {
+    list-style-type: none;
+    margin: 20 10;
+    cursor: pointer;
+}
+.buttom:active {
+    opacity: 0.8;
+}
+
+section {
+    width: 100%;
+    border: 1px solid;
+}
+
+#table-map {
+    padding: 20;
+}
+
+#table-map table {
+    margin: auto;
+}
+
+.vaga {
+    background-color: #00c853;
+}
+
+.vaga img {
+    padding: 4;
+}
+
+.cone {
+    background-color: #cfd8dc;
+}
+
+.edificio {
+    background-color: #757575;
+    border: none !important;
+}
+
+.map .header {
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 10;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+  }
+  td {
+    width: 64px;
+    height: 64px;
+    border: 2px solid #fff;
+    text-align: center;
+    vertical-align: center;
+    font-family: arial;
+    font-size: 10px;
+    position: relative;
+    font-weight: bold;
+  }
+  td.pixel {
+    width: 4px;
+    height: 4px;
+    border: 0;
+  }
+  a {
+    color: #FFF;
+    font-size: 10px;
+    font-family: arial;
+  }
+  .margin {
+    margin: 5px;
+  }

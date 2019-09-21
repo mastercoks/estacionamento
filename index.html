@@ -1,0 +1,53 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zona de Estacionamento</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/images/logo.png" alt="Logo">
+    </header>
+    <main>
+        <aside>
+            <ul>
+                <li class="buttom">
+                    <a onclick="handleOperation(1)">
+                        <img src="./assets/images/reserva.png" alt="Botão reserva">
+                    </a>
+                </li>
+                <li class="buttom">
+                    <a onclick="handleOperation(2)">
+                        <img src="./assets/images/liberacao.png" alt="Botão liberação">
+                    </a>
+                </li>
+                <li class="buttom">
+                    <a onclick="handleOperation(3)">
+                        <img src="./assets/images/interdicao.png" alt="Botão interdição">
+                    </a>
+                </li>
+                <li class="buttom">
+                    <a onclick="handleOperation(4)">
+                        <img src="./assets/images/fechamento.png" alt="Botão fechamento">
+                    </a>
+                </li>
+                <li class="buttom">
+                    <a onclick="handleOperation(5)">
+                        <img src="./assets/images/relatorio.png" alt="Botão relatorio">
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <section class="map">
+            <div class="header">
+                Mapa de vagas
+            </div>
+            <div id="table-map"></div>
+        </section>
+    </main>
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
